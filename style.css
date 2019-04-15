@@ -1,0 +1,119 @@
+h1 {
+    color: rgb(255, 198, 198);
+    margin: 30px;
+    padding-left: 30px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    border: 5px solid rgb(82, 28, 3);
+    }
+    .container1 {
+        display:flex;
+        background-color: rgb(63, 7, 7);
+        flex-direction: column;
+    }
+h3  {
+    color: rgb(255, 247, 240);
+    font-family: "Times New Roman", Times, serif;
+    }
+
+body{
+    background-image: 
+    url(https://hostbangla.com/wp-content/uploads/2016/12/website-design-background.png);
+    padding-bottom: 20px;
+    -webkit-text-fill-color: rgb(252, 171, 157);
+    }
+    dl {
+        color: rgb(255, 247, 240)
+    }
+    ol{
+        color: rgb(255, 247, 240)
+    }
+a:link {
+        color: rgb(216, 42, 42);
+       text-align: center;
+       padding-right: 10px;;
+    }
+a:hover {
+    color: rgb(148, 224, 98);
+       text-align: center;
+       padding-right: 10px;;
+    }
+a:active {
+        color: rgb(42, 161, 216);
+        text-align: center;
+        padding-right: 10px;
+        }
+a:visited 
+{
+    color: rgb(44, 68, 204);
+    text-align: center;
+    padding-right: 10px;;
+}
+ul{
+    color: rgb(255, 247, 240)}
+
+#p1{
+    color: rgb(255, 247, 240);
+}
+
+.container2 
+{
+display: flex;
+background-color: rgba(48, 15, 0, 0.384);
+flex-wrap: wrap;
+
+
+}
+
+.one{
+    
+    min-width: 500px;
+    min-height: 450px;
+    flex-shrink: 1;
+    flex-grow: 1;    
+}
+.two {
+    padding-top: 15px;
+    min-width: 500px;
+    height: 350px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.three {
+   
+    text-align: left;
+    min-width: 350px;
+    height: 350px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.four {
+   
+    text-align: left;
+    min-width: 350px;
+    height: 350px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.six {
+  
+    text-align: left;
+    min-width: 350px;
+    height: 350px;
+    flex-grow: 1;
+
+}
+
+.dl {
+    background-color: rgba(139, 59, 59, 0);
+    min-width: 150px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+form { 
+    color: rgb(255, 247, 240);
+    padding-bottom: 20px;
+}

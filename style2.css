@@ -1,0 +1,275 @@
+body {
+    background-color: #fffef8;
+    
+}
+.main-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+.flex-container{
+    display: flex;
+    min-width: 100px;
+    background-color: hsl(75, 100%, 9%);
+    height: 100%;
+    width: 100%;
+    position: relative; 
+    
+    padding-top: 1%;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: hsl(41, 99%, 61%);
+    font-size: 1.5em;
+    padding: 24px;
+    padding-left: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-shadow: #752e2e;
+    
+}
+
+.image-container{
+    top: 25%;
+    
+    position: relative;
+    flex-direction: column; 
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: hsl(0, 100%, 0%);
+
+}
+#banner-image1 {
+    width: 100%;
+    opacity: .7;
+    background-color: #ffffff;
+}
+.title{
+    width: 100%;
+   padding-left: 10%;
+   padding-top: 10%;
+   position: absolute;
+   flex-direction: column; 
+   text-align: center;
+    font-size: 4em;
+
+}
+.sub-title{
+    width: 100%;
+    padding-left: 15%;
+    padding-top: 30%;
+    position: absolute;
+    flex-direction: column; 
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.skill-text{
+    display: flex;
+    position: relative;
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:hsl(75, 100%, 9%) ;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.skill-title{
+    width: 100%;
+    color: rgb(255, 153, 0);
+    font-size: 2em;
+    text-align: center;
+}
+.skill-desc{
+    width: 100%;
+    color: rgb(255, 153, 0);
+    font-size: 1.2em;
+    text-align: center;
+
+}
+.skill-container{
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    height: 400px;
+    padding-bottom: 50px; 
+    flex-shrink: 1;
+
+
+}
+.project-management{
+    display: flex;
+    padding: 2px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+.cloud{
+    display: flex;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.web-developmnet{
+    display: flex;
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+.front-end{
+    display: flex; 
+    padding:5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+.data-analysis{
+    display: flex; 
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+.cicd{
+    display: flex; 
+    padding: 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+#agile{
+    width:45%;
+    height: 45%;
+    }
+#sdlc{    
+    width:40%;
+    height: 40%}
+#kanban{    
+    padding: 1px;
+    width:40%;
+    height: 40%}
+#cicd1{
+    width:35%;
+    height: 30%;
+    padding: 5px;
+}
+#cloud{
+    width:85%;
+    height: 40%;
+}
+#adobe{
+    width:75%;
+    height: 40%;
+}
+#soap{    
+    width:55%;
+    height: 40%}
+#api{    
+    width:45%;
+    height: 30%}
+#http{
+    width: 55%;
+    height: 40%;
+}
+#html{    
+    width:45%;
+    height: 40%}
+#css{    
+    width:45%;
+    height: 40%}
+#java-script{    
+    width:40%;
+    height: 40%}
+#studio {
+    width: 45%;
+    height: 40%; 
+}
+#sql{
+    width:45%;
+    height: 40%;
+}
+#sql-server{
+    width:45%;
+    height: 30%;
+}
+#data-analysis{
+    width:45%;
+    height: 30%;
+}
+#xml{
+    width: 30%;
+    height: 30%;
+}
+.about{
+    display: flex;
+    position: relative;
+    flex-direction: column; 
+    width: 100%;
+    height: 100px; 
+    padding: 2px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: hsl(0, 100%, 0%);
+   
+}
+hr{
+    width: 50%;
+    align-self: center; 
+}
+.about-img{
+    display: flex;
+    position: absolute;
+    width: 99%;
+    height: 720px;
+    
+ 
+}
+#aboutimg{
+    width: 100%;
+    opacity: .5;
+}
+.title-about{
+    margin-top: 20px; 
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+.text-about{
+    width: 90%;
+    font-size: 1.1em;
+    padding: 20px;
+    margin-left: 20px; 
+    
+ 
+
+}
+#text-about{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.column1{
+
+    text-align: center;
+    margin: 5px;
+    background-color: aquamarine;
+}
